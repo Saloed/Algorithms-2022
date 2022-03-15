@@ -109,20 +109,6 @@ fun longestCommonSubstring(first: String, second: String): String {
  * Единица простым числом не считается.
  */
 fun calcPrimesNumber(limit: Int): Int {
-//     val primes = mutableListOf<Int>()
-//     if (limit <= 1) return 0
     val allNumbers = IntArray(limit - 1)
     return Int.MAX_VALUE
-
-//     for (i in 0..limit - 2) {
-//         if (allNumbers[i] == 0) {
-//             allNumbers[i] = i + 2
-//             primes.add(i + 2)
-//         }
-//         for (p in primes) {
-//             if (p > allNumbers[i] || p * (i + 2) > limit) break
-//             allNumbers[p * (i + 2) - 2] = p
-//         }
-//     }
-//     return primes.size
 }
