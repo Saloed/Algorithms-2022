@@ -111,7 +111,7 @@ fun longestCommonSubstring(first: String, second: String): String {
 fun calcPrimesNumber(limit: Int): Int {
 //     val primes = mutableListOf<Int>()
 //     if (limit <= 1) return 0
-//     val allNumbers = IntArray(limit - 1)
+    val allNumbers = IntArray(limit - 1)
     return Int.MAX_VALUE
 
 //     for (i in 0..limit - 2) {
